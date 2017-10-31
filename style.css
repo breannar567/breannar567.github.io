@@ -1,0 +1,53 @@
+      /* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* selected link */
+a:active {
+    color: green;
+} 
+  
+.sampleClass  {
+        
+        height: 136px;
+        width: 230px;
+        padding: 5px;
+        border: 9px solid blue;
+        border-radius: 6px;
+        margin: 10px;
+        background-color: red;
+        
+      } 
+    #sampleid {
+      
+      
+    }
+    .sampleClass2  {
+        
+        height: 136px;
+        width: 230px;
+        padding: 5px;
+        border: 9px solid red;
+        border-radius: 32px;
+        margin: 10px;
+        background-color: black;
+        color: white;
+        
+        
+      } 
+    #sampleid2 {
+      
+      color: #ffcc00;
+    }
+    
