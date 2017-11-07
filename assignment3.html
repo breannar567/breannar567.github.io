@@ -14,12 +14,14 @@
       
      <script type="text/javascript">
      var guess = prompt("Guess a number between 1 and 5", "");
+     var numberofguesses = 1;
      var number = 4;
      while (guess != number) {
 		     guess = prompt("Your guess was incorrect. Please guess a number between 1 and 5 again", "");
+	             numberofguesses = numberofguesses+1;
 	     }     
     
-        alert ("You tried " + guess + ". You were correct!");
+        alert ("You tried " + guess + ". You were correct! It took you" + numberofguesses + "guesses");
         
 
      
