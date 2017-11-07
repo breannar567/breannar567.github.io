@@ -3,8 +3,7 @@
 <html>
   
 	<head>
-	  
-    	<title>Assignment 3</title>
+	
     	
       <style type="text/css"> 
       
@@ -18,12 +17,13 @@
      <script type="text/javascript">
      var guess = prompt("Guess a number between 1 and 5", "");
      var number = 4;
-     if (guess == number) {
+	     while guess! = number {
+		     guess = prompt("Your guess was incorrect. Please guess a number between 1 and 5 again", "");
+	     }     
+    
         alert ("You tried " + guess + ". You were correct!");
-        } 
-     else {
-        alert ("You tried " + guess + ". The correct number was: " + number);
-     }
+        
+
      
      
      </script>
